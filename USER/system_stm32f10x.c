@@ -35,7 +35,7 @@
   *    When HSE is used as system clock source, directly or through PLL, and you
   *    are using different crystal you have to adapt the HSE value to your own
   *    configuration.
-  *         
+  *          
   ******************************************************************************
   * @attention  
   * 
