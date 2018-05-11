@@ -1,0 +1,40 @@
+Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~PCB_Project1.PrjPCB|ReportField=ProjectFullPath~C:\Users\xiaomizhou\Desktop\RC531\PCB_Project1.PrjPCB|ReportField=Title~Bill of Materials For Project [PCB_Project1.PrjPCB] (No PCB Document Selected)|ReportField=TotalQuantity~68|ReportField=ReportTime~23:01:27|ReportField=ReportDate~2016/4/6|ReportField=ReportDateTime~2016/4/6 23:01:27|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~2016/4/6|ReportField=CurrentTime~23:00:43|ReportField=Date~|ReportField=DocumentFullPathAndName~C:\Users\xiaomizhou\Desktop\RC531\RC531.Sch|ReportField=DocumentName~RC531.Sch|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~2016/4/6|ReportField=Organization~|ReportField=ProjectName~PCB_Project1.PrjPCB|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~0|ReportField=SheetTotal~0|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~PCB_Project1.PrjPCB|ReportField=DataSourceFullPath~C:\Users\xiaomizhou\Desktop\RC531\PCB_Project1.PrjPCB
+RC531_ANT||ANT1|RC531_ANT|RC531_ANT|1
+103||C1|0603P|C|1
+68nF||C2, C4|0603P|C|2
+102||C3|0603P|C|1
+100P||C5|0603P|C|1
+4.7nF|Capacitor|C6, C11|0603P|Cap|2
+5pF|Capacitor|C7, C12|0603P|Cap|2
+15pF|Capacitor|C8, C10|0603P|CAP|2
+100nF|Capacitor|C9, C13|0603P|Cap|2
+100uF/6V|Electrolytic Capacitor|CE1|C1210|ELECTRO1|1
+136P||CO1, CO2|0603p|C|2
+10P||CO3, CO4|0603p|C|2
+13.56MHZ|Crystal|CY1|SMD4_32X25|CRYSTAL1|1
+10uH||L1|0603p|L|1
+1uH||L2, L3|0603p|L|2
+Header 13|Header, 13-Pin|P1|HDR1X13|Header 13|1
+10M||R1|0603p|R7|1
+0||R2, R13|0603p|R7|2
+1k|Resistor|R3, R4, R5, R6, R7, R8, R9, R10, R11, R14, R16, R17, R18, R21, R22, R23, R24|0603p|R7, Res2|17
+820||R12|0603p|R7|1
+10K|Resistor|R15, R19, R20, R28|0603p|Res2|4
+KEY 1||TouchPad1|TouchKey|TouchPad|1
+KEY2||TouchPad2|TouchKey|TouchPad|1
+KEY 3||TouchPad3|TouchKey|TouchPad|1
+存||TouchPad4|TouchKey|TouchPad|1
+KEY 4||TouchPad5|TouchKey|TouchPad|1
+KEY 5||TouchPad6|TouchKey|TouchPad|1
+KEY 6||TouchPad7|TouchKey|TouchPad|1
+功能||TouchPad8|TouchKey|TouchPad|1
+KEY 7||TouchPad9|TouchKey|TouchPad|1
+KEY 8||TouchPad10|TouchKey|TouchPad|1
+KEY 9||TouchPad11|TouchKey|TouchPad|1
+返回||TouchPad12|TouchKey|TouchPad|1
+TouchPad||TouchPad13|TouchKey|TouchPad|1
+KEY 0||TouchPad14|TouchKey|TouchPad|1
+OK||TouchPad15|TouchKey|TouchPad|1
+取||TouchPad16|TouchKey|TouchPad|1
+MFRC531||U1|SOP32|MFRC500|1
+SOP_24||U2, U3|SOP24|SOP_24L|2
