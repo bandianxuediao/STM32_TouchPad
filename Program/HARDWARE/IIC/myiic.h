@@ -23,6 +23,7 @@ void IIC_Ack(void);                 //IIC发送ACK信号
 void IIC_NAck(void);                //IIC不发送ACK信号
 void IIC_Key_Send_Byte(u8 txd);
 
+void scan_key(void);
 void IIC_Write_One_Byte(u8 daddr, u8 addr, u8 data);
 u8 IIC_Read_One_Byte(u8 daddr, u8 addr);
 #endif

@@ -1,6 +1,6 @@
 #include "myiic.h"
 #include "delay.h"
-
+#include "usart.h"
 //初始化IIC
 void IIC_Init(void)
 {
@@ -151,6 +151,18 @@ u8 IIC_Read_Byte(unsigned char ack)
 
 
 
+void scan_key(void)
+{
+	u8 temp1[2];
+	IIC_Start();
+	IIC_Key_Send_Byte(133);    //地址：悬空0x81-129     低0x85-133      高0x89-137
+	IIC_Ack();//发送nACK
+	temp1[0] = IIC_Read_Byte(0);
+	temp1[1] = IIC_Read_Byte(0);
+	IIC_NAck();//发送nACK
+	IIC_Stop();//产生一个停止条件
+	printf("%x %x\r\n", temp1[0], temp1[1]);
+}
 
 
 

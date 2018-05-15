@@ -2,11 +2,8 @@
 #include "delay.h"
 #include "key.h"
 #include "sys.h"
-#include "lcd.h"
 #include "usart.h"
-#include "usmart.h"
-#include "24cxx.h"
-
+#include "myiic.h"
 
 int main(void)
 {
